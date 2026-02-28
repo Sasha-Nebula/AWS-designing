@@ -1,0 +1,9 @@
+name:
+  Generate diagram
+
+jobs:
+  runs-on: ubuntu-latest
+  job1:
+    - name: run the script
+      run: |
+        python Solution1.py
