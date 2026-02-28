@@ -9,7 +9,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5 
+        with:
+          python-version: '3.10'
       - name: "generate solution"
         run: |
-          pip install diagrams,graphviz
+          python3 -m pip install diagrams,graphviz
           python Solution1.py
