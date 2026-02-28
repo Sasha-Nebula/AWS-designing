@@ -1,8 +1,9 @@
 name: "Solution1"
-
+on: workflow_dispatch
 jobs:
-  runs-on: "ubuntu-latest"
   job1:
-    - name: generate solution
-      run: |
-        python Solution1.py
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "generate solution"
+        run: |
+          python Solution1.py
