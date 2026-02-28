@@ -1,0 +1,8 @@
+name: "Solution1"
+
+jobs:
+  runs-on: "ubuntu-latest"
+  job1:
+    - name: generate solution
+      run: |
+        python Solution1.py
