@@ -6,7 +6,7 @@ from diagrams.aws.network import CloudFront as CF
 from diagrams.aws.security import IdentityAndAccessManagementIamRole as IAMRole
 
 
-with Diagram("Solution1") as diag:
+with Diagram("Solution1",show=True) as diag:
     Users("User") >> Edge(color="firebrick",style="dashed") >> \
     Route53("Route53") >> Edge(color="firebrick",style="dashed") >> \
     CF("Cloud Front")  >> Edge(color="firebrick",style="dashed") >> \
