@@ -1,5 +1,8 @@
 name: "Solution1"
 on: workflow_dispatch
+permissions:
+  contents: write
+  actions: write
 jobs:
   job1:
     runs-on: "ubuntu-latest"
