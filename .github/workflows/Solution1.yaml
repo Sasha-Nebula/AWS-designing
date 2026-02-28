@@ -7,6 +7,8 @@ jobs:
   job1:
     runs-on: "ubuntu-latest"
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: "generate solution"
         run: |
           python Solution1.py
