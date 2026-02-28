@@ -11,4 +11,5 @@ jobs:
         uses: actions/checkout@v2
       - name: "generate solution"
         run: |
+          pip install diagrams,graphviz
           python Solution1.py
