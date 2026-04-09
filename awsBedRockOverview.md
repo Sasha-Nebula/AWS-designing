@@ -31,3 +31,4 @@ I[Providers] --> AD[Cohere]
 I[Providers] --> AE[Meta]
 I[Providers] --> AF[Mistral AI]
 I[Providers] --> AG[Stability AI]
+```
