@@ -32,3 +32,15 @@ I[Providers] --> AE[Meta]
 I[Providers] --> AF[Mistral AI]
 I[Providers] --> AG[Stability AI]
 ```
+```mermaid
+graph LR
+A((BedRock)) --> B[Foundation Models]
+A --> C[Fine Tuning]
+A --> D[Pay-per-API-call]
+A --> E[Application integration with pre-trained models]
+A --> AE[Serverless]
+F((SageMaker AI)) --> FA[Custom Models]
+F --> FB[Model development]
+F --> FC[Pay-per-compute-storage-training]
+F --> FD[Serverfull]
+```
